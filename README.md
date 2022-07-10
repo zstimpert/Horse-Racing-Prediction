@@ -1,4 +1,4 @@
-#Yuri Updates
+# Yuri Updates
 
 Unfortunately, including the `Season Stakes` introduces look ahead bias. The `Season Stakes` is an accumulated number over the course of the season, instead of accumulated earnings up to the date of that specific race. Because of that, a horse with a high `Season Stakes` is implied to have placed well during the season, while a horse with a low Season Stakes is implied to have placed poorly. If you exclude `Season Stakes` from your dataset, you'll see that the model reverts back to being nearly random.
 
